@@ -8,7 +8,7 @@ if not os.path.exists(predictor_path):
     raise FileNotFoundError(f"Arquivo {predictor_path} não encontrado. Baixe de: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2")
 
 # Carregar o detector de faces do dlib
-detector_faces = dlib.get_frontal_face_detector() afadfsdagdsa
+detector_faces = dlib.get_frontal_face_detector()
 # Carregar o preditor facial do dlib
 preditor_facial = dlib.shape_predictor(predictor_path)
 
